@@ -1,0 +1,35 @@
+@font-face {
+  font-family: Nyasha Sans;
+  font-display: swap;
+  src: url("../fonts/Nyasha Sans.woff2") format("woff2"), url("../fonts/Nyasha Sans.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  background-color: bisque;
+}
+
+h2 {
+  font-family: Nyasha Sans;
+}
+
+h3 {
+  font-family: Nyasha Sans;
+}
+
+span {
+  color: green;
+  background: url("../img/3.png") 0 0 no-repeat;
+}
+
+@media (max-width: 768px) {
+  span {
+    font-size: 20px;
+    color: grey;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    background-color: bisque;
+  }
+}
